@@ -8,17 +8,20 @@ function SocialMedia({size=44}) {
     <ul
     className='flex flex-wrap gap-8' 
     aria-label="Social media">
-      <li className='hover:scale-110 transition-all duration-300'>
+      
+      <li className='hover:scale-125  transition-all duration-300'>
         <a
-          href="https://github.com/tahirkamal19"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="GitHub"
+        className=''
+        href="https://github.com/tahirkamal19"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="GitHub"
         >
           <FaGithub size={size} color="#0e76a8" />
         </a>
       </li>
-      <li className='hover:scale-110 transition-all duration-300'>
+
+      <li className='hover:scale-125 transition-all duration-300'>
         <a
           href="https://www.linkedin.com/in/tk19"
           target="_blank"
@@ -28,7 +31,7 @@ function SocialMedia({size=44}) {
          <FaLinkedin size={size} color="#0e76a8"/>
         </a>
       </li>
-      <li className='hover:scale-110 transition-all duration-300'>
+      <li className='hover:scale-125 transition-all duration-300'>
         <a
           href="mailto:tahirkamal6@gmail.com"
           aria-label="Email"
@@ -36,7 +39,7 @@ function SocialMedia({size=44}) {
           <FaEnvelope size={size} color="#0e76a8"/>
         </a>
       </li>
-      <li className='hover:scale-110 transition-all duration-300'>
+      <li className='hover:scale-125 transition-all duration-300'>
         <a
           href="https://wa.me/03366562329"
           target="_blank"
