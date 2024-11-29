@@ -41,7 +41,7 @@ const Projects = () => {
         product catalog, shopping cart, and order management.
         Implemented payment integration, user reviews, and admin dashboard for
         efficient product management.`,
-        TechnologiesUsed: ["React", "Node.js", "Express", "Tailwind CSS","Cloudinary", "MongoDB",
+        TechnologiesUsed: ["React", "Node.js", "Express","Redux Toolkit", "Tailwind CSS","Cloudinary", "MongoDB",
             "JWT", "CSS"],
     }
   ];
@@ -58,7 +58,7 @@ const Projects = () => {
             className="md:w-[520px] w-64 p-5 min-h-[380px] flex-col  border-blue-500 border-y-2 shadow-lg shadow-blue-500/25">
            
               <h1 className="md:text-4xl text-lg text-left font-bold">
-                `{project.Title}`
+                  {project.Title}
               </h1>
 
               <p className="text-xs md:text-lg p-3 ">{project.Desc}</p>
