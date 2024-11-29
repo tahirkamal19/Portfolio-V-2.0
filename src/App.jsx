@@ -3,6 +3,7 @@ import AboutMe from './Components/AboutMe'
 import Experience from './Components/Experience'
 import Header from './Components/Header'
 import HeroSec from './Components/HeroSec'
+import Projects from './Components/Projects'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <HeroSec/>
     <AboutMe/>
     <Experience/>
+    <Projects/>
     </>
   )
 }

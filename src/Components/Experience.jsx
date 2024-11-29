@@ -4,10 +4,10 @@ import React from "react";
 const Experience = () => {
   return (
     <div className="p-5 mt-5 ">
-      <h1 className="text-center text-4xl font-bold mb-5">Experience</h1>
+      <h1 className="text-center md:text-4xl text-3xl font-bold mb-5">Experience</h1>
       <div className="flex  justify-center">
       <div className="bg-slate-950 border-blue-500 border-x-2 shadow-lg shadow-blue-500/25 sm:w-[620px] lg:w-[700px] p-8 rounded-lg w-65">
-        <h1 className="text-4xl text-center italic mb-5 font-bold">
+        <h1 className="md:text-4xl text-xl text-center italic md:mb-5 mb-2 font-bold">
           MERN Stack Internee
         </h1>
         <div>
@@ -25,8 +25,8 @@ const Experience = () => {
         </div>
 
         <div className="border-t-2 border-gray-500">
-          <ol className="mt-5 list-disc ml-5">
-            <li className="">
+          <ol className="mt-5 list-disc ml-5 text-sm md:text-lg">
+            <li>
               Built full-stack applications using MERN (MongoDB, Express, React,
               Node)
             </li>
